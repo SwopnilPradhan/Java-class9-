@@ -5,7 +5,7 @@ public class reverse{
     int length = x.length();
     String rev = "";
     for(int i = length-1;i>=0;i--){
-      rev = rev + charAt(i);
+      rev = rev + x.charAt(i);
     }
     System.out.println(rev);
   }
