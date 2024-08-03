@@ -22,3 +22,6 @@ class Vowel{
         System.out.println("vowel");
       default:
         System.out.println("not a vowel");
+    }
+  }
+}
